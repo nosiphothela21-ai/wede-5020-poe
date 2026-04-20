@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestie Bakes | Enquiry - Custom Orders & Partnerships</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1> Bestie Bakes</h1>
+            <p><em>freshly baked with love</em></p>
+        </div>
+
+         <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="Home.html"> Home</a></li>
+                <li><a href="aboutUs.html"> About Us</a></li>
+                <li><a href="Service&Product.html"> Our Bakes</a></li>
+                <li><a href="enquiry.html"> Enquiry</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h1>Make an Enquiry</h1>
+        <p>Use this form for custom cake orders, wholesale partnerships, volunteer opportunities, or sponsorship requests. We'll get back to you within 24 hours.</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your Contact Information</legend>
+                
+                <label for="fullname">Full Name: *</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="e.g., Sarah Johnson">
+
+                <br><br>
+
+                <label for="email">Email Address: *</label>
+                <input type="email" id="email" name="email" required placeholder="sarah@example.com">
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(27+)816523878">
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Enquiry Type</legend>
+                
+                <label for="enquiry-type">What is your enquiry about? *</label>
+                <select id="enquiry-type" name="enquiry_type" required>
+                    <option value="">-- Select one --</option>
+                    <option value="custom_cake">Custom Cake / Pastry Order</option>
+                    <option value="wholesale">Wholesale / Business Partnership</option>
+                    <option value="volunteer">Volunteer at Bestie Bakes</option>
+                    <option value="sponsor">Become a Sponsor / Donor</option>
+                    <option value="general">General Question</option>
+                </select>
+
+                <br><br>
+
+                <label for="event_date">Event Date (if custom order):</label>
+                <input type="date" id="event_date" name="event_date">
+
+                <br><br>
+
+                <label for="quantity">Estimated quantity needed:</label>
+                <input type="number" id="quantity" name="quantity" min="1" placeholder="e.g., 20 cupcakes">
+
+                <br><br>
+
+                <label for="volunteer_interest">Tell us about your interest in volunteering/sponsorship:</label>
+                <textarea id="volunteer_interest" name="volunteer_details" rows="3" placeholder="I would like to help with weekend packaging / sponsor an event..."></textarea>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Your Message</legend>
+                <label for="message">Detailed message / cake specifications: *</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Describe your dream cake, dietary restrictions, or partnership idea..."></textarea>
+            </fieldset>
+
+            <br>
+
+            <button type="submit"> Submit Enquiry</button>
+            <button type="reset">Clear Form</button>
+        </form>
+
+        <hr>
+
+        <section>
+            <h2>Why enquire with Bestie Bakes?</h2>
+            <ul>
+                <li> Custom designs tailored to your event theme</li>
+                <li> Vegan, gluten-free, and allergy-friendly options available</li>
+                <li> We support local volunteers with baking workshops</li>
+                <li> Sponsorship opportunities: we partner with schools and community events</li>
+            </ul>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p> <strong>Bestie Bakes Bakery & Café</strong></p>
+        <p>210 Robert Sobukwe Street,Sunnyside|  0647055821-BAKE |  hello@bestiebakes.com</p>
+        <p> Open daily: 7am - 6pm | Sunday 8am - 4pm</p>
+        <p><small>&copy; 2026 Bestie Bakes - Artisan Bakery. All images used under free license from Unsplash.</small></p>
+    </footer>
+
+</body>
+</html>
