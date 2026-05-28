@@ -3,99 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bestie Bakes | Contact - Two Locations & Inquiry Form</title>
+    <title>BestiesBakes | Contact - Get in Touch</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo">
-            <h1> Bestie Bakes</h1>
-            <p><em>freshly baked with love</em></p>
+<header>
+    <img src="images/logo1.jpg
+    " alt="BestiesBakes Logo">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you — questions, custom orders, or just to say hi <i class="fas fa-heart" style="color: #e74c3c;"></i></p>
+</header>
+
+<nav>
+    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+    <a href="products.html"><i class="fas fa-cake-candles"></i> Products</a>
+    <a href="order.html"><i class="fas fa-clipboard-list"></i> Order Online</a>
+    <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+</nav>
+
+<!-- Location and Contact Info -->
+<section class="section">
+    <div class="product-grid">
+        <div class="highlight-box">
+            <i class="fas fa-map-marker-alt" style="font-size: 2rem; color: var(--secondary-gold);"></i>
+            <h3>Our Location</h3>
+            <p><b>BestiesBakes Bakery</b><br>
+            Steve Biko Road & Robert Sobukwe Street<br>
+            Sunnyside, Pretoria, 0002<br>
+            South Africa</p>
         </div>
+        <div class="highlight-box">
+            <i class="fas fa-phone" style="font-size: 2rem; color: var(--secondary-gold);"></i>
+            <h3>Call Us</h3>
+            <p><i class="fas fa-phone-alt"></i> +27 64 705 9821</p>
+            <p><i class="fab fa-whatsapp"></i> +27 64 705 9821 (orders only)</p>
+            <p><i class="fas fa-envelope"></i> bestiesbakes@email.com</p>
+        </div>
+        <div class="highlight-box">
+            <i class="fas fa-clock" style="font-size: 2rem; color: var(--secondary-gold);"></i>
+            <h3>Business Hours</h3>
+            <p><i class="fas fa-calendar-day"></i> Mon–Fri: 8am – 6pm</p>
+            <p><i class="fas fa-calendar-day"></i> Sat: 9am – 3pm</p>
+            <p><i class="fas fa-calendar-times"></i> Sun: Closed</p>
+        </div>
+    </div>
+</section>
 
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="Services&Products.html">Our Bakes</a></li>
-                <li><a href="Enquiry.html">Enquiry</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- Google Map -->
+<section class="section">
+    <h2 style="text-align: center;"><i class="fas fa-map"></i> Find Us Here</h2>
+    <div style="text-align: center;">
+        <iframe src="https://www.google.com/maps?q=Sunnyside,Pretoria&output=embed" 
+        width="100%" 
+        height="400"
+        style="border: 0; border-radius: 15px; box-shadow: var(--shadow-md);"
+        allowfullscreen=""
+        loading="lazy">
+        </iframe>
+    </div>
+</section>
 
-    <hr>
-
-    <main>
-        <h1>Visit Us</h1>
-        <p>We have two cozy locations. Stop by for fresh coffee and pastries!</p>
-
-        <section>
-            <h2> Location 1: Sunnypark Bakery Café (Main Shop)</h2>
-            <p><strong>Address:</strong> 210 Robert Sobukwe Street , Sunnyside</p>
-            <p><strong>Hours:</strong> Mon-Sat 7am-6pm, Sun 8am-4pm</p>
-            <p><strong>Phone:</strong> 0647055821-BAKE</p>
+<!-- Contact Form -->
+<section class="section">
+    <h2 style="text-align: center;"><i class="fas fa-paper-plane"></i> Send us a message</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend><i class="fas fa-comment"></i> Message Form</legend>
+            <label><i class="fas fa-user"></i> Your name:</label>
+            <input type="text" name="name" required>
             
-        </section>
-
-        <hr>
-
-        <section>
-            <h2> Location 2: Quagga Shopping Centre Hub (Second Location)</h2>
-            <p><strong>Address:</strong> 12 Quagga Rd , Pretoria West ,Pretoria ,0183</p>
-            <p><strong>Hours:</strong> Mon-Fri 8am-5pm, Sat 9am-4pm (Closed Sundays)</p>
-            <p><strong>Phone:</strong> 0647059821-BAKE</p>
+            <label><i class="fas fa-envelope"></i> Your email:</label>
+            <input type="email" name="email" required>
             
-        </section>
-
-        <hr>
-
-        <section>
-            <h2>Send us a quick message</h2>
-            <form action="#" method="post">
-                <label for="contact_name">Name:</label>
-                <input type="text" id="contact_name" name="contact_name" required>
-                <br><br>
-
-                <label for="contact_email">Email:</label>
-                <input type="email" id="contact_email" name="contact_email" required>
-                <br><br>
-
-                <label for="contact_subject">Subject:</label>
-                <input type="text" id="contact_subject" name="subject">
-                <br><br>
-
-                <label for="contact_msg">Message:</label>
-                <textarea id="contact_msg" name="message" rows="5" required></textarea>
-                <br><br>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-
-        <hr>
-
-        <section>
-            <h2>Follow & Connect</h2>
-            <p> Instagram: @bestiebakes |  Twitter: @bestiebakes |  Facebook: BestieBakesBakery</p>
-        </section>
-        <!--Location-->
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14374.402199538774!2d28.192531250368617!3d-25.750720137737176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95621f0027a0e3%3A0x86786cb129188b24!2sSunnypark%20Mall%2C%20410%20Robert%20Sobukwe%20St%2C%20Sunnyside%2C%20Pretoria%2C%200001!5e0!3m2!1sen!2sza!4v1776678003902!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14374.8110336108088!2d28.138312150366673!3d-25.747341537771145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95628340032a9d%3A0xe625fe4148aedb11!2sQuagga%20Shopping%20Centre!5e0!3m2!1sen!2sza!4v1776678214217!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </section>
+            <label><i class="fas fa-tag"></i> Subject:</label>
+            <input type="text" name="subject" required>
+            
+            <label><i class="fas fa-message"></i> Message:</label>
+            <textarea name="message" rows="5" required></textarea>
+        </fieldset>
         
-    </main>
+        <div style="text-align: center;">
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+            <button type="reset"><i class="fas fa-eraser"></i> Clear</button>
+        </div>
+    </form>
+</section>
 
-    <hr>
+<!-- FAQ Section -->
+<section class="section">
+    <h2 style="text-align: center;"><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+    <div class="product-grid">
+        <div class="highlight-box">
+            <i class="fas fa-question" style="color: var(--secondary-gold);"></i>
+            <h3>How far in advance should I order a custom cake?</h3>
+            <p>Please order at least 3-5 days in advance for custom cakes.</p>
+        </div>
+        <div class="highlight-box">
+            <i class="fas fa-question" style="color: var(--secondary-gold);"></i>
+            <h3>Do you deliver outside Pretoria?</h3>
+            <p>Currently we deliver only within Pretoria. Pickup is always free!</p>
+        </div>
+        <div class="highlight-box">
+            <i class="fas fa-question" style="color: var(--secondary-gold);"></i>
+            <h3>Do you offer gluten-free or vegan options?</h3>
+            <p>Yes! Please mention your dietary requirements in the order form.</p>
+        </div>
+        <div class="highlight-box">
+            <i class="fas fa-question" style="color: var(--secondary-gold);"></i>
+            <h3>What payment methods do you accept?</h3>
+            <p>EFT, Cash on pickup, or Card via WhatsApp payment link.</p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p> <strong>Bestie Bakes Bakery & Café</strong></p>
-        <p>210 Robert Sobukwe , Sunnyside |  0647055821-BAKE |  hello@bestiebakes.com</p>
-        <p> Open daily: 7am - 6pm | Sunday 8am - 4pm</p>
-        <p><small>&copy; 2026 Bestie Bakes - Artisan Bakery. All images used under free license from Unsplash.</small></p>
-    </footer>
+<hr>
+
+<footer>
+    <p><b>BestiesBakes 🍰</b><br>
+    <i class="fas fa-map-marker-alt"></i> Sunnyside, Pretoria</p>
+    
+    <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    
+    <p>&copy; 2026 BestiesBakes. All rights reserved. <i class="fas fa-heart" style="color: #e74c3c;"></i></p>
+</footer>
 
 </body>
 </html>
