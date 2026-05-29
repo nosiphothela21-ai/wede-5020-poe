@@ -24,8 +24,8 @@ Week 4 	    Make sure to submit on the submission day.	                         
 
 ## Sitemap
 
-![Website Sitemap]() <br> 
-( ![alt text](<Screenshot (89).png>))
+![WebsiteSitemap]() <br>
+ (![alt text](<Screenshot (89)-1.png>))
 ## References
 Bunny pants website ,2026 ,available at (Web & Graphic Design Studio - Bunnypants Graphic & Web Design Studio South Africa ) access on 11 April 2026.
 Figma , 2026, available at ( Untitled – Figma ) ,Accessed at 13 April .
