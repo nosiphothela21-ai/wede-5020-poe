@@ -30,6 +30,8 @@ Week 4	   Make sure to submit on the submission day.                            
 
 ## Sitemap
 
+![WebsiteSitemap]()
+![alt text](<Screenshot (89).png>)
 
 ![alt text](c:\Users\nosip\Pictures\Besties Bakes\Screenshots\Screenshot (89).png)
 ## References
