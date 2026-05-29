@@ -12,6 +12,7 @@
 
 ### Changed
 - The shop location to be at one location .
+- inqury in on concact page.
 
 
 ### Fixed
