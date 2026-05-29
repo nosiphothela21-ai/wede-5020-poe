@@ -1,24 +1,26 @@
 # CHANGELOG
 
-All notable changes to this project will be documented in this file.
-
-This project follows Semantic Versioning.
 
 ## [1.0.0] 
 ### Added
-- I added new pictures 
+- I added new pictures ,icluding picture of myself .
+- Created external CSS stylesheet(styles.css) stylesheet and linked to all 6 HTML pages using link tag. 
+- Added CSS variables for colour scheme ,fonts , spacing , shadows , and borde-radius.
+- Comments on both css and Html website.
+- Added my needed for my Html based on Part 1 feedback.
+- Added few icons on my HTML for the website.
 
 ### Changed
-- xyz
+- The shop location to be at one location .
+
 
 ### Fixed
-- xyz
+- My HTML 
+- My README.md
 
 ## Semantic Versioning
 
-Format: MAJOR.MINOR.PATCH  
-Example: 2.1.3
 
 - MAJOR → Breaking changes (1.0.0 → 2.0.0)  
 - MINOR → New features (1.0.0 → 1.1.0)  
-- PATCH → Bug fixes / small improvements (1.0.0 → 1.0.1)
+- PATCH → Bug fixes / small improvements (1.0.0 → 1.0.0)
