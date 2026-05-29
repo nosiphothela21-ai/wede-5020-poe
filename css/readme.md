@@ -30,8 +30,8 @@ Week 4	   Make sure to submit on the submission day.                            
 
 ## Sitemap
 
-![Website Sitemap]() <br> 
-![alt text](<Screenshot (70).png>)
+
+![alt text](c:\Users\nosip\Pictures\Besties Bakes\Screenshots\Screenshot (89).png)
 ## References
 
 Bunny pants website ,2026 ,available at (Web & Graphic Design Studio - Bunnypants Graphic & Web Design Studio South Africa) access on 11 April 2026.
