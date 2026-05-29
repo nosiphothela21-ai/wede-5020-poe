@@ -6,7 +6,7 @@ This project follows Semantic Versioning.
 
 ## [1.0.0] 
 ### Added
-- xyz
+- I added new pictures 
 
 ### Changed
 - xyz
